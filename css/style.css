@@ -32,6 +32,7 @@ p {
   background: #3bae12;
   border-radius: 100px;
   text-decoration: none;
+  display: block;
 }
 
 .button--alt {
