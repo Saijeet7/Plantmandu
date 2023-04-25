@@ -97,24 +97,24 @@
 
     <section class="logIn">
         <div class="container">
-            <div class="logIn__wrapper">
+            <form class="logIn__wrapper">
                 <h1 class="logIn__title">Log <strong>In</strong></h1>
                 <div class="logIn__content">
                     <label for="email" class="logIn__label">Email</label>
-                    <input type="email" class="logIn__input">
+                    <input type="email" class="logIn__input" required>
                 </div>
                 <div class="logIn__content">
                     <label for="email" class="logIn__label">Password</label>
-                    <input type="password" class="logIn__input">
+                    <input type="password" class="logIn__input" required>
                 </div>
                 <div class="logIn__subContent">
                     <a href="#" class="logIn__forgot">Forgot your password?</a>
-                    <a href="#" class="button button--small">Sign In</a>
+                    <button type="submit" class="button button--small">Sign In</button>
                 </div>
                 <div class="logIn__new">
-                    <a href="#" >Create a New account</a>
+                    <a href="#">Create a New account</a>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
 
