@@ -7,6 +7,13 @@
   background-repeat: no-repeat;
   padding-top: 64px;
   margin-bottom: 45px;
+  overflow: hidden;
+  @media only screen and (max-width: 800px) {
+    width: 350px;
+    height: 250px;
+    margin-bottom: 25px;
+    padding: 20px;
+  }
 }
 
 .banner__wrapper {
@@ -50,6 +57,10 @@
   flex-wrap: wrap;
   column-gap: 16px;
   row-gap: 45px;
+  @media only screen and (max-width: 800px) {
+    column-gap: 10px;
+    row-gap: 20px;
+  }
 }
 
 .cardFancy__card {
@@ -92,12 +103,12 @@
   margin-bottom: 5px;
 }
 
-.cardFancy__showMore{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.cardFancy__showMore {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-.button{
-    display: block;
+.button {
+  display: block;
 }

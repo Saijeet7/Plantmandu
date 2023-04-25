@@ -1,3 +1,8 @@
+.productContent {
+  padding: 0;
+  margin: 0;
+}
+
 .productContent__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -6,10 +11,16 @@
 
 .productContent__left {
   width: 26.89%;
+  @media only screen and (max-width: 1000px) {
+    display: none;
+  }
 }
 
 .mainContent {
   width: calc(100% - 26.89% - 22px);
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+  }
 }
 
 .productContent__title {
@@ -24,6 +35,7 @@
   width: 100%;
   margin-bottom: 20px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .productContent__title::before {
@@ -177,5 +189,3 @@
   padding: 0;
   margin-bottom: 11px;
 }
-
-
