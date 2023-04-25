@@ -189,3 +189,114 @@
   padding: 0;
   margin-bottom: 11px;
 }
+
+.mainContent__text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #434343;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+}
+
+.mainContent__arrow {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.mainContent__share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #434343;
+}
+
+.mainContent__share p {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContent__share .fa-solid {
+  font-size: 14px;
+  color: #3bae12;
+}
+
+.mainContent__sharePost {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3bae12;
+}
+
+.mainContent__sharePost p {
+  margin: 0;
+  padding: 0;
+}
+
+.span__comment {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.mainContent__form {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 22px;
+}
+
+.mainContent__input {
+  width: 100%;
+  max-width: 344px;
+  height: 50px;
+  border: none;
+  background-color: #ebeaea;
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+  color: #666666;
+  margin-right: 15px;
+}
+
+.mainContent__input--large {
+  max-width: 463px;
+}
+
+.mainContent__input--text {
+  max-width: 100%;
+  height: 230px;
+}
+
+.button--form {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  padding: 9px 22px;
+  border-radius: 0;
+  color: #fdfffc;
+}
