@@ -4,6 +4,9 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  @media only screen and (max-width: 700px) {
+    padding: 40px 0;
+  }
 }
 
 .feedback__wrapper {
@@ -24,6 +27,9 @@
   font-size: 300px;
   line-height: 1;
   color: #d9d9d9;
+  @media only screen and (max-width: 1000px) {
+    font-size: 100px;
+  }
 }
 
 .feedback__text {
@@ -39,6 +45,9 @@
   text-align: center;
 
   color: #434343;
+  @media only screen and (max-width: 1000px) {
+    font-size: 20;
+  }
 }
 
 .feedback__paragraph {
@@ -52,6 +61,9 @@
   text-align: center;
   color: #434343;
   margin-bottom: 64px;
+  @media only screen and (max-width: 1000px) {
+    margin-bottom: 40px;
+  }
 }
 
 .feedback__wrap {
@@ -80,6 +92,10 @@
 .feedback__image {
   height: 81px;
   width: 81px;
+  @media only screen and (max-width: 800px) {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .feedback__profile {

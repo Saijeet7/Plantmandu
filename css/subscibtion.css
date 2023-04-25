@@ -1,5 +1,8 @@
 .subscribtion {
   padding: 140px 0 15px 0;
+  @media only screen and (max-width: 800px) {
+    padding: 60px 0 15px 0;
+  }
 }
 
 .subscribtion__wrapper {
@@ -30,6 +33,9 @@
   align-items: center;
   height: 68px;
   padding: 0 28px;
+  @media only screen and (max-width: 900px) {
+    padding: 0 15px;
+  }
 }
 
 .subscribtion__label {
@@ -50,6 +56,14 @@
   margin-right: 32px;
   position: relative;
   border-right: 1px solid #4b4d4f;
+  @media only screen and (max-width: 900px) {
+    width: 200px;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 500px) {
+    width: 100px;
+  }
 }
 
 .button--subs {
@@ -59,4 +73,7 @@
   font-size: 20px;
   line-height: 24px;
   color: #3bae12;
+  @media only screen and (max-width: 900px) {
+    font-size: 16px;
+  }
 }

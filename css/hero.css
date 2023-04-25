@@ -5,6 +5,11 @@
   background-position: center center;
   background-repeat: no-repeat;
   padding-bottom: 120px;
+  @media only screen and (max-width: 1000px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  overflow: hidden;
 }
 
 .hero__title {
@@ -15,6 +20,14 @@
   font-size: 128px;
   color: rgba(34, 34, 34, 0.08);
   margin-bottom: 0;
+  @media only screen and (max-width: 1000px) {
+    margin-left: 0px;
+    font-size: 68px;
+  }
+  @media only screen and (max-width: 600px) {
+    margin-left: 0px;
+    font-size: 48px;
+  }
 }
 
 .hero__text {
@@ -28,6 +41,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media only screen and (max-width: 1000px) {
+    margin-left: 0px;
+  }
 }
 
 .hero__subTitle {
@@ -38,6 +54,9 @@
   line-height: 1;
   color: #222222;
   margin-bottom: 10px;
+  @media only screen and (max-width: 600px) {
+    font-size: 28px;
+  }
 }
 
 .hero__text p {

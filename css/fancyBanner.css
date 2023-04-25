@@ -17,6 +17,10 @@
     background-position: center center;
     height: 280px;
     border-radius: 20px;
+    @media only screen and (max-width: 900px) {
+        width: 100%;
+        max-width: 588px;
+      }
 }
 
 .fancyBanner__top {
